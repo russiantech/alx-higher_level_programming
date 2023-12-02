@@ -1,0 +1,4 @@
+
+#!/bin/bash
+# script that compiles a Python script file
+python3 -m compileall -b "$PYFILE" i
