@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
-Takes GitHub credentials (username & personal access token) and uses the GitHub API
-to display the user's id. Basic Authentication with a personal access token is used.
+Takes GitHub credentials (username & personal access token)
+and uses the GitHub API to display the user's id.
+Basic Authentication with a personal access token is used.
 """
 
 import requests
