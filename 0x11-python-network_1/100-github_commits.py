@@ -21,7 +21,8 @@ if __name__ == "__main__":
 
         for commit in commits:
             sha = commit.get('sha', '')
-            author_name = commit.get('commit', {}).get('author', {}).get('name', '')
+            author_name = commit.get('commit', {})\
+                .get('author', {}).get('name', '')
             print(f"{sha}: {author_name}")
 
     except ValueError:
